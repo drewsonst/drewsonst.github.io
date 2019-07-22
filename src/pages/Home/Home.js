@@ -112,7 +112,7 @@ export default class Home extends Component {
           <div ref={this.bottomRef} />
           <Row>
             <Col xs='6' className='my-col'>
-              <Link to="/assets/resume.pdf" target="_blank" download className='resume'>DOWNLOAD MY RESUME</Link>
+              <a href="/assets/resume.pdf" target="_blank" download className='resume'>DOWNLOAD MY RESUME</a>
             </Col>
             <Col xs='6' className='my-col'>
               <div className="link-bar">
