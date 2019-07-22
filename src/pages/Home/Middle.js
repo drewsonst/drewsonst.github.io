@@ -100,7 +100,7 @@ export default class Middle extends React.Component {
                       text: 'React',
                     }}
                     subBubbles={[
-                      { title: 'Portfolio', link: 'https://github.com/drewsonst' },
+                      { title: 'Portfolio', link: 'https://github.com/drewsonst/portfolio' },
                       { title: 'Simple ToDo', link: 'https://codesandbox.io/s/reacttodo-84pyvnoo40' },
                       { title: 'Coming Soon', link: 'https://github.com/drewsonst' },
                     ]}
