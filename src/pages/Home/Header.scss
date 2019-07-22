@@ -1,0 +1,77 @@
+@import 'variables';
+
+.header-box {
+  margin-bottom: 200px;
+  @media (min-width: $break-xSmall) {
+    height: 445px;
+  }
+
+  @media (min-width: $break-small) {
+    height: 515px;
+  }
+
+  @media (min-width: $break-smallP) {
+    height: 550px;
+  }
+
+  @media (min-width: $break-med) {
+    height: 700px;
+  }
+  
+  @media (min-width: $break-large) { 
+    height: 700px;
+  }
+}
+
+.header {
+  @include flexCenter();
+  background-color: rgba(0, 0, 0, 0.6);
+
+  @media (min-width: $break-xSmall) {
+    height: 445px;
+  }
+
+  @media (min-width: $break-small) {
+    height: 515px;
+  }
+
+  @media (min-width: $break-smallP) {
+    height: 550px;
+  }
+
+  @media (min-width: $break-med) {
+    height: 700px;
+  }
+  
+  @media (min-width: $break-large) { 
+    height: 700px;
+  }
+}
+
+.my-profile-pic {
+  position: relative;
+  border: solid .6em white;
+  height: 60%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.my-intro {
+  text-align: center;
+  color: white;
+  padding-bottom: 100px;
+
+  h1 {
+    font-size: 5em;
+  }
+
+  h5 {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.5)
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.5)
+  }
+}

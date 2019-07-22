@@ -1,0 +1,20 @@
+$break-xSmall: 320px;
+$break-small: 375px;
+$break-smallP: 411px;
+$break-med: 768px;
+$break-large: 992px;
+$dark-grey: #0a0a0a;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin disableSelect {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

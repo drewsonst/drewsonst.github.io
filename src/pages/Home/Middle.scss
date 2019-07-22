@@ -1,0 +1,27 @@
+@import 'variables';
+
+.middle {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  @media (min-width: $break-xSmall) {
+    font-size: 0.75em;
+  }
+
+  @media (min-width: $break-med) {
+    font-size: 1em;
+  }
+  
+  @media (min-width: $break-large) { 
+    font-size: 1em;
+  }
+}
+
+.container-middle {
+  overflow: hidden;
+}
+
+.mid-col {
+  background: none;
+  border: none;
+  padding: 0 !important;
+}

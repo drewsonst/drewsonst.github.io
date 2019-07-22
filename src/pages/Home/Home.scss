@@ -1,0 +1,80 @@
+@import 'variables';
+
+.appContainer {
+  font-size: 1em;
+
+  @media (min-width: $break-xSmall) {
+    font-size: 10px;
+  }
+
+  @media (min-width: $break-small) {
+    font-size: 11px;
+  }
+  
+  @media (min-width: $break-med) {
+    font-size: 14px;
+  }
+  
+  @media (min-width: $break-large) { 
+    font-size: 16px;
+  }
+}
+
+.title {
+  position: relative;
+  font-size: 2.5em;
+  color: black;
+
+  &:after {
+    content: ''; 
+    width: 55px; 
+    height: 8px; 
+    background: red; 
+    position: absolute; 
+    bottom: -5px;
+  }
+}
+
+.my-col {
+  background: none;
+  border: none;
+}
+
+.link-bar i {
+  text-align: right;
+  padding-right: .6em;
+  font-size: 2em;
+  color: $dark-grey;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+
+.about-text {
+  font-size: 1em;
+}
+
+.resume {
+  display: inline-block;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  padding: 10px 30px 10px 30px;
+
+  &:hover {
+    background: $dark-grey;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.disable-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
