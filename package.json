@@ -12,7 +12,7 @@
     "react-motion": "^0.5.2",
     "react-parallax": "^2.2.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "reactstrap": "^7.1.0"
   },
   "scripts": {
